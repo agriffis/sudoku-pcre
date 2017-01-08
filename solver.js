@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 //
-// sudre.js - Solve a sudoku in two PCRE substitutions
+// solver.js - Solve a sudoku in two PCRE substitutions
 //
 // Written in 2017 by Aron Griffis <aron@n01se.net>
 // and released into the public domain.

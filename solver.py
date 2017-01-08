@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #
-# sudre.py - Solve a sudoku in two PCRE substitutions
+# solver.py - Solve a sudoku in two PCRE substitutions
 #
 # Written in 2007 by Aron Griffis <aron@n01se.net>
 # and released into the public domain.

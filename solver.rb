@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 #
-# sudre.rb - Solve a sudoku in two PCRE substitutions
+# solver.rb - Solve a sudoku in two PCRE substitutions
 #
 # Written in 2007 by Aron Griffis <aron@n01se.net>
 # and released into the public domain.
