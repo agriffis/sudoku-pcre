@@ -89,5 +89,4 @@ ENV/
 .ropeproject
 
 # Output files
-solver.??
 *.times

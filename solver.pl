@@ -7,12 +7,17 @@
 
 use warnings;
 
-{ local $/ = undef; $puz = <>; }
+{
+    local $/ = undef;
+    $puz = <>;
+    open($fh, '<', 'regex.txt');
+    $regex = <$fh>;
+}
 print "INPUT:\n$puz\n";
 
 $puz =~ s{\d}{$& ? $&.'        ' : '123456789'}ge;
 $puz =~ s{
-m4_include(`regex.txt')m4_dnl
+    $regex
 }{
     "$1 $2 $3 $4 $5 $6 $7 $8 $9\n" .
     "$10 $11 $12 $13 $14 $15 $16 $17 $18\n" .

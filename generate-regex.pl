@@ -68,5 +68,4 @@ for ($i = 0; $i < 81; $i++) {
 }
 $re .= "\\Z\n";
 
-printf "# %s\n", '$LastChangedRevision: 2391 $';
 print $re;

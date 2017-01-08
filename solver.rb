@@ -10,9 +10,11 @@ $VERBOSE = true  # same as -w
 puz = gets(nil)
 print "INPUT:\n#{puz}\n"
 
+regex = File.read('regex.txt')
+
 puz.gsub!(%r{\d}) {|x| x == '0' ? '123456789' : x+'        ' }
 md = puz.match %r{
-m4_include(`regex.txt')m4_dnl
+    #{regex}
 }x
 
 print "OUTPUT:\n"

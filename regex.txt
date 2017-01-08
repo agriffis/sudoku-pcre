@@ -1,4 +1,3 @@
-# $LastChangedRevision: 2391 $
 \A
 
 \d*(\d)
