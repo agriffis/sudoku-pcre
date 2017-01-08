@@ -1,4 +1,4 @@
-SCRIPTS = solver.pl solver.py solver.rb
+SCRIPTS = solver.pl solver.py solver.rb solver.js
 TIMES = $(SCRIPTS:solver.%=%.times)
 INPUTS = inputs/*.input*
 

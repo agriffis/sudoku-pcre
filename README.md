@@ -53,4 +53,4 @@ This solver is just a [giant PCRE](./regex.txt) with language-specific
 trimmings. As such it's easy to try different languages, and in particular to
 compare their [PCRE engine timings](./TIMES.md).
 
-This repo contains implementations in Perl, Python, and Ruby.
+This repo contains implementations in Perl, Python, Ruby, and JavaScript (Node).
